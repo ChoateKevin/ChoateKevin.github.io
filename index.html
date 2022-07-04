@@ -13,12 +13,12 @@
 </head>
 
 <body>
-    <section class="Hero">
+    <section class="Hero" id="Home">
         <nav class="navbar">
             <ul>
-                <li><a href="">Work</a></li>
-                <li><a href="">Projects</a></li>
-                <li><a href="">Personal</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Personal">Personal</a></li>
             </ul>
         </nav>
         <h1 class="hey">Hey, I am</h1>
@@ -29,12 +29,22 @@
             -Confucius
         </q>
     </section>
-    <section class="Work">
+    <div class="fabContainer">
+        <a href="#Home">
+            <i class="arrow up"></i>
+        </a>
+    </div>
+    <section class="Work" id="Work">
         <h3>Work</h3>
         <div class="container">
             <div class="card" id="fish">
                 <h4>Fish City Grill</h5>
-                    <p>Lorem ipsum </p>
+                    <p class="timeWorked">2011-2019</p>
+                    <ul>
+                        <li>Held every position in the resturant</li>
+                        <li>Helped create the Training protocol</li>
+                        <li>Learned Customer Service in a high pressure and fast environment</li>
+                    </ul>
             </div>
             <!-- <hr> -->
             <div class="card" id="sewell">
@@ -65,7 +75,7 @@
             </div>
         </div>
     </section>
-    <section class="Projects">
+    <section class="Projects" id="Projects">
         <h2>Projects</h2>
         <div class="projectsContainerDFWHH">
             <img class="DFWHHimage" src="./images/placeholder image.png" alt="generic placeholder image">
@@ -85,7 +95,7 @@
             <img class="BTBCimage" src="./images/placeholder image.png" alt="generic placeholder image">
         </div>
     </section>
-    <section class="Personal">
+    <section class="Personal" id="Personal">
         <h2>Personal</h2>
         <div class="personalCards">
             <div class="personalCard">
@@ -102,7 +112,7 @@
                 <ul>
                     <li>Bob's Burgers</li>
                     <li>Stranger Things</li>
-                    <li>Hardy Boys</li>
+                    <li>Great British Baking Show</li>
                     <li>Psych</li>
                 </ul>
                 <h6>Books</h6>
@@ -138,7 +148,7 @@
         </div>
     </section>
     <footer>
-        
+        <h4>Find Me On</h4>
     </footer>
 </body>
 

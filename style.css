@@ -61,8 +61,39 @@ q{
 }
 #headshotImage{
     padding-left: 10%;
-
 }
+
+.arrow{
+    border: solid #006135;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    bottom: 50px;
+    right: -auto;
+}
+
+.up{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+.fabContainer{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.fabContainer a{
+    padding-left: 15px;
+    position: fixed;
+    padding-top: 11px;
+}
+
+
 /* -------------Work Section ----------------- */
 
 .Work{
@@ -120,6 +151,9 @@ q{
 }
 #UNT{
     grid-column: 5;
+}
+.timeWorked{
+    text-align: center;
 }
 
 /* ------------------Projects Section-------------- */
@@ -231,3 +265,6 @@ q{
 .personalCardPadding{
     padding-bottom: 20px;
 }
+
+
+/* ----------Footer Section---------- */
