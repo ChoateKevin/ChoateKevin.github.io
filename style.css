@@ -22,7 +22,6 @@ h1{
 }
 .mobileHey{
     display: none;
-    color:black
 }
 
 @media (max-width: 600px) {
@@ -30,6 +29,7 @@ h1{
         display: none;
     }
     .mobileHey{
+        margin : 5% 0 0 5%;
         display: inline;
     }
 }
