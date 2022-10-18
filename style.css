@@ -73,6 +73,7 @@ q{
 }
 #headshotImage{
     padding-left: 10%;
+    border-radius: 5px;
 }
 
 .arrow{
