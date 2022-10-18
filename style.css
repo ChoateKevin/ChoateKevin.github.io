@@ -21,16 +21,16 @@ h1{
     display: inline;
 }
 .mobileHey{
-    display: hidden;
+    display: none;
     color:black
 }
 
 @media (max-width: 600px) {
     .hey{
-        display: hidden;
+        display: none;
     }
     .mobileHey{
-        display: show;
+        display: inline;
         color: blue;
     }
 }
