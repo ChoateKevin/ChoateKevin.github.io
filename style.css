@@ -22,14 +22,16 @@ h1{
 }
 .mobileHey{
     display: hidden;
+    color:black
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     .hey{
         display: hidden;
     }
     .mobileHey{
         display: show;
+        color: blue;
     }
 }
 .kevin{
