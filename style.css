@@ -20,7 +20,18 @@ h1{
     margin: 5% 0 0 5%;
     display: inline;
 }
+.mobileHey{
+    display: hidden;
+}
 
+@media screen and (max-width: 600px) {
+    .hey{
+        display: hidden;
+    }
+    .mobileHey{
+        display: show;
+    }
+}
 .kevin{
     margin: 0 0 5% 5%;
 }
